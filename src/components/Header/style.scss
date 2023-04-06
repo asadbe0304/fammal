@@ -1,0 +1,12 @@
+.header{
+padding: 20px 0px;
+ }
+ @media screen and (max-width:420px) {
+  .logo{
+    width: 140px!important;
+  }
+  .icon_menu{
+    width: 20px!important;
+    height: 20px !important;
+  }
+ }

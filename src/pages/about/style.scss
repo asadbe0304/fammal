@@ -1,0 +1,33 @@
+.about {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .about__left {
+    width: 30%;
+  }
+  .about__right {
+    margin-left: 40px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .about__inner {
+    flex-direction: column;
+  }
+  .about__left {
+    width: 100% !important;
+  }
+  .about__right {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+}
