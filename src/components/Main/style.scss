@@ -81,6 +81,9 @@
   width: 600px;
   margin: 40px 0 0 0;
 }
+.mobile{
+  display: none;
+}
 
 .lider__card {
   width: 120px;
@@ -124,6 +127,12 @@
   .hero__icon {
     width: 60px;
     height: 60px;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
   }
   .intro__start {
     margin-top: 170px;
