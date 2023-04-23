@@ -12,7 +12,7 @@ export default class SimpleSlider extends Component {
       speed: 500,
       centerMode: true,
       centerPadding: "60px",
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       responsive: [
         {
@@ -40,7 +40,16 @@ export default class SimpleSlider extends Component {
           className="py-4 carousel-box flex items-center justify-center gap-4"
         >
           <div className="relative  news">
-            <img src={Img} alt="images" className="rounded-lg" />
+            <iframe
+              width="560"
+              height="315"
+              className="rounded-lg"
+              src="https://www.youtube.com/embed/mH6AAvegzAk"
+              title="YouTube video player"
+              frameborder="10"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
             <div className="absolute news-partner z-10 bottom-0 p-2">
               <h3 class="partner__title  text-white font-bold">
                 Moskvadagi konferentsiya, 2023 yil 1-aprel
@@ -51,7 +60,15 @@ export default class SimpleSlider extends Component {
             </div>
           </div>
           <div className="relative  news">
-            <img src={Img} alt="images" className="rounded-lg" />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/mH6AAvegzAk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
             <div className="absolute news-partner z-10 bottom-0 p-2">
               <h3 class="partner__title  text-white font-bold">
                 Moskvadagi konferentsiya, 2023 yil 1-aprel
@@ -60,7 +77,15 @@ export default class SimpleSlider extends Component {
             </div>
           </div>
           <div className="relative  news">
-            <img src={Img} alt="images" className="rounded-lg" />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/mH6AAvegzAk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
             <div className="absolute news-partner z-10 bottom-0 p-2">
               <h3 class="partner__title  text-white font-bold">
                 Moskvadagi konferentsiya, 2023 yil 1-aprel
@@ -69,7 +94,15 @@ export default class SimpleSlider extends Component {
             </div>
           </div>
           <div className="relative  news">
-            <img src={Img} alt="images" className="rounded-lg" />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/mH6AAvegzAk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
             <div className="absolute news-partner z-10 bottom-0 p-2">
               <h3 class="partner__title  text-white font-bold">
                 Moskvadagi konferentsiya, 2023 yil 1-aprel
