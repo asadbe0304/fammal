@@ -11,7 +11,7 @@ export default class SimpleSlider extends Component {
       infinite: true,
       speed: 500,
       centerMode: true,
-      centerPadding: "60px",
+      centerPadding: "100px",
       slidesToShow: 1,
       slidesToScroll: 1,
       responsive: [
@@ -20,7 +20,7 @@ export default class SimpleSlider extends Component {
           settings: {
             infinite: true,
             speed: 500,
-            centerMode: false,
+            centerMode: true,
             centerPadding: "160px",
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -41,9 +41,7 @@ export default class SimpleSlider extends Component {
         >
           <div className="relative  news">
             <iframe
-              width="560"
-              height="315"
-              className="rounded-lg"
+              className="rounded-lg w-full h-auto"
               src="https://www.youtube.com/embed/mH6AAvegzAk"
               title="YouTube video player"
               frameborder="10"
@@ -61,8 +59,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="relative  news">
             <iframe
-              width="560"
-              height="315"
+              className="rounded-lg w-full h-auto"
               src="https://www.youtube.com/embed/mH6AAvegzAk"
               title="YouTube video player"
               frameborder="0"
@@ -78,8 +75,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="relative  news">
             <iframe
-              width="560"
-              height="315"
+              className="rounded-lg w-full h-auto"
               src="https://www.youtube.com/embed/mH6AAvegzAk"
               title="YouTube video player"
               frameborder="0"
@@ -95,8 +91,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="relative  news">
             <iframe
-              width="560"
-              height="315"
+              className="rounded-lg w-full h-auto"
               src="https://www.youtube.com/embed/mH6AAvegzAk"
               title="YouTube video player"
               frameborder="0"
