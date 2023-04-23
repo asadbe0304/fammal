@@ -7,7 +7,7 @@ const index = () => {
       <footer>
         <div className="container">
           <div className="footer flex items-start justify-between w-full ">
-            <ul className="list-none flex items-start justify-between w-1/2">
+            <ul className="list-none flex footer-list items-start justify-between w-1/2">
               <li className="list-title">
                 MENYU
                 <ul>

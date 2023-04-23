@@ -17,18 +17,21 @@ footer {
 
 address {
   color: #fff;
+  text-align: center;
 }
 .footer__bottom {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
+  text-align: center;
 }
-.list-title{
-  color: #474747!important;
+.list-title {
+  color: #474747 !important;
 }
 @media screen and (max-width: 900px) {
   .footer {
+    align-items: center;
     flex-direction: column;
     gap: 40px;
     ul {
@@ -40,5 +43,8 @@ address {
         margin: 10px 0px;
       }
     }
+  }
+  .footer-list {
+    align-items: center !important;
   }
 }
