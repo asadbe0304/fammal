@@ -12,7 +12,7 @@ const Hamburger = () => {
     <>
       <div className="header__menu flex items-center justify-between gap-5">
         <div className="header__start text-white font-bold text-xl" id="start">
-          КАК НАЧАТЬ
+        QANDAY BOSHLASH KERAK
         </div>
         <div>
           {open ? (

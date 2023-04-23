@@ -24,7 +24,9 @@ address {
   align-items: center;
   color: #fff;
 }
-
+.list-title{
+  color: #474747!important;
+}
 @media screen and (max-width: 900px) {
   .footer {
     flex-direction: column;

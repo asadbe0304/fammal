@@ -10,7 +10,7 @@ const Card = ({prop}) => {
             <p className="card-text">{prop.company}</p>
             <span className="card-text">Art 23444</span>
           </div>
-          <h3 className="text-lg ">Укрепляющяя восстанавливающяя эссенция</h3>
+          <h3 className="text-lg ">Qattiqlashtiruvchi ta'mirlash mohiyati</h3>
         </div>
         <div className="card__footer py-4   flex items-center  justify-between w-full">
           <strong className="price-card font-medium">2345 P</strong>

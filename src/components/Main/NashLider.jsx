@@ -7,14 +7,17 @@ const NashLider = () => {
     <>
       <div className="lider">
         <div className="lider__top">
-          <h2 className="font-bold mb-10 text-2xl lider__title">НАШИ ЛИДЕРЫ</h2>
+          <h2 className="font-bold mb-10 text-2xl lider__title">
+            BIZNING RAHBARLARIMIZ
+          </h2>
           <p className="lider__text text-center">
-            ТОП лидеры сетевого маркетинга — это люди, играющие ведущую роль в
-            своих сетевых компаниях, главные дистрибьюторы с тысячными
-            структурами. Известно, что в сетевом маркетинге невозможно добиться
-            успеха в одиночку, это бизнес команды, сплоченные одной идеей.
-            Лидеры на основании своего опыта обучают свою команду, своих
-            дистрибьюторов навыкам создания успешной бизнес структуры.
+            TOP tarmoq marketingi rahbarlari - bu o'z tarmoq kompaniyalarida
+            etakchi rol o'ynaydigan odamlar, minglab tuzilmalarga ega asosiy
+            distribyutorlar. Ma'lumki, tarmoq marketingida yolg'iz
+            muvaffaqiyatga erishib bo'lmaydi, bu bitta g'oya bilan birlashgan
+            biznes jamoasi. Rahbarlar o'z tajribalariga asoslanib, o'z
+            jamoasiga, distribyutorlariga muvaffaqiyatli biznes tuzilmasini
+            yaratish ko'nikmalarini o'rgatishadi.
           </p>
         </div>
         <div className="lider__peoples flex items-center gap-2 justify-center flex-wrap">

@@ -6,37 +6,38 @@ const index = () => {
     <>
       <div className="about">
         <div className="about__top">
-          <h3 className="text-2xl font-bold mb-14">О НАС</h3>
+          <h3 className="text-2xl font-bold mb-14">BIZ HAQIMIZDA</h3>
         </div>
         <div className="about__inner">
           <div className="flex flex-col about__left items-start justify-between gap-2">
             <img src={Img} alt="company logo" />
-            <h3 className="text-xl mb-10 mt-5">FAMALL NETWORK</h3>
+            <h3 className="text-xl mb-10 mt-5">FAMALL TARMOG'I</h3>
             <p className="about__left--text">
-              Компания основана в 1998 году в г. Сучжоу, Китай. На данный момент
-              насчитывает 300000 партнёров по всему миру и является ведущей
-              экологической компанией в сфере сетевого бизнеса!
+              Kompaniya 1998 yilda Xitoyning Suzhou shahrida tashkil etilgan.
+              <br />
+              Hozirda butun dunyo bo'ylab 300 000 hamkorlari bor va tarmoq
+              biznesi sohasida yetakchi ekologik kompaniya hisoblanadi!
             </p>
           </div>
           <div className="about__right">
             <p className="my-8">
-              С самого начала своего развития компания была ориентирована на
-              самые высокие технологии в области производства товаров широкого
-              спроса. Основной акцент был сделан на качество и безопасность
-              продукции. Научно-техническая группа FAMALL постоянно наращивала
-              темпы своего роста и постепенно превратилась в научного
-              первопроходца и лидера китайской биотехнологической
-              промышленности. Наша компания уделяет особое внимание научным
-              разработкам, умному производству, онлайн-продажам, физическим
-              магазинам, продуманной логистике, защите данных, разработке
-              программного обеспечения, контенту и стримингу в сфере электронной
-              коммерции. Задавшись целью развивать международный рынок, были
-              открыты филиалы в более чем 30 странах и регионах мира: в
-              Юго-Восточной Азии, Африке, Восточной Европе, странах СНГ, России.
+              Kompaniya o'zining rivojlanishining boshidanoq iste'mol tovarlari
+              ishlab chiqarish sohasidagi eng yuqori texnologiyalarga e'tibor
+              qaratdi. Asosiy e'tibor mahsulotlarning sifati va xavfsizligiga
+              qaratildi. FAMALL Fan va Texnologiyalar guruhi o'z o'sish
+              sur'atlarini doimiy ravishda oshirdi va asta-sekin Xitoyning
+              biotexnologiya sanoatining ilmiy kashshofiga va etakchisiga
+              aylandi. Kompaniyamiz elektron tijorat sohasida ilmiy rivojlanish,
+              aqlli ishlab chiqarish, onlayn savdo, jismoniy do'konlar, aqlli
+              logistika, ma'lumotlarni himoya qilish, dasturiy ta'minotni ishlab
+              chiqish, kontent va oqimlarga e'tibor qaratadi. Xalqaro bozorni
+              rivojlantirishga yo'l qo'yib, dunyoning 30 dan ortiq mamlakatlari
+              va mintaqalarida: Janubi-Sharqiy Osiyo, Afrika, Sharqiy Evropa,
+              MDH mamlakatlari, Rossiyada filiallari ochildi.
             </p>
             <div className="w-full flex items-end justify-end">
-              <button className="rounded-lg py-2 px-4 bg-red-600 hover:bg-transparent duration-300 border border-red-600">
-                ПОДРОБНЕЕ
+              <button className="rounded-lg py-2 px-4 bg-red-600 hover:bg-transparent duration-300 border text-white border-red-600">
+                Ko'proq...
               </button>
             </div>
           </div>

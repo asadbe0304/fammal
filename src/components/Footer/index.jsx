@@ -6,28 +6,23 @@ const index = () => {
     <>
       <footer>
         <div className="container">
-          <div className="footer flex items-center justify-between w-full ">
-            <ul className="list-none flex items-center justify-between w-1/2">
-              <li>
-                Menu
+          <div className="footer flex items-start justify-between w-full ">
+            <ul className="list-none flex items-start justify-between w-1/2">
+              <li className="list-title">
+                MENYU
                 <ul>
-                  <li>Kompaniya Haqida</li>
-                  <li>Mahsulotlar</li>
-                  <li>Biznes Boshlash</li>
-                  <li>Katolog</li>
-                  <li>Sertifikat</li>
+                  <li>Mahsulotlar katalogi</li>
+                  <li>Harakatlar</li>
+                  <li>Yangiliklar</li>
+                  <li>Biznesingizni qanday boshlash kerak</li>
                   <li>Kontaktlar</li>
                 </ul>
               </li>
-              <li>
-                Menu
+              <li className="list-title">
+                KOMPANIYA HAQIDA
                 <ul>
-                  <li>Kompaniya Haqida</li>
-                  <li>Mahsulotlar</li>
-                  <li>Biznes Boshlash</li>
-                  <li>Katolog</li>
-                  <li>Sertifikat</li>
-                  <li>Kontaktlar</li>
+                  <li>Kompaniya tarixi</li>
+                  <li>Bizning rahbarlarimiz</li>
                 </ul>
               </li>
             </ul>
@@ -35,8 +30,8 @@ const index = () => {
               <address>Tashkent, Uzbekistan, Muqimiy Ko'chasi 23A-uy</address>
             </div>
           </div>
-          <div className="footer__bottom">
-            Barcha Huquqlar Himoyalangan 2023 @copy
+          <div className="footer__bottom text-slate-500">
+            FAMALL. Barcha huquqlar himoyalangan 2023 @copy
           </div>
         </div>
       </footer>

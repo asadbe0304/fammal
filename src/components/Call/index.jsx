@@ -20,9 +20,9 @@ const index = () => {
             className="px-4 py-2 mb-10 rounded-lg border border-red-600 bg-transparent
          hover:bg-red-600 duration-300 "
           >
-            Scroll To Top
+            SAHIFA BOSHIGA QAYTISH
           </button>
-          <p>Или посетите наши аккаунты:</p>
+          <p>Yoki bizning hisoblarimizga tashrif buyuring:</p>
           <div className="flex mt-4 items-center justify-center gap-2">
             <a
               href="tel:+9989

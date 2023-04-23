@@ -6,20 +6,21 @@ const start = () => {
     <div className="hero_start p-5 py-10 mb-5 rounded-b-lg w-full ">
       <div className="start--logo">
         <img src={Logo} alt="start logo" />
-      </div> 
+      </div>
       <div className="flex-col flex items-start justify-between gap-3">
         <div>
-          <h3 className="font-bold start_title">Начать бизнес с FAMALL очень просто!</h3>
+          <h3 className="font-bold start_title">
+            FAMALL bilan biznes boshlash juda oson!
+          </h3>
         </div>
         <div className="flex item-center start_body justify-between gap-8 w-full">
           <p className="text-md font-medium">
-          Достаточно найти представителя компании или связаться с нами по
-          горячей линии!
+          Buning uchun kompaniya vakilini topish yoki ishonch telefoniga murojaat qilish kifoya!
           </p>
-          <button className="bg-red-600 flex items-center w-48  justify-between rounded-md text-white px-4 cursor-pointer py-2" >
-            НАЧАТЬ БИЗНЕС
+          <a href="tel:+998932502719" className="bg-red-600 flex items-center w-48  justify-between rounded-md text-white px-4 cursor-pointer py-2">
+          BIZNES BOSHLASH
             <MdArrowDownward />
-          </button>
+          </a>
         </div>
       </div>
     </div>

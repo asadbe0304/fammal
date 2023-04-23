@@ -33,14 +33,28 @@ export default class SimpleSlider extends Component {
     return (
       <div className="corusel-slide flex items-center justify-center flex-col">
         <h2 className="text-center mb-8 mx-auto font-bold carousel__title text-2xl">
-          НОВОСТИ И ВИДЕО
+          YANGILIKLAR VA VIDEO
         </h2>
-        <Slider {...settings} className="py-4 carousel-box flex items-center justify-center gap-4">
+        <Slider
+          {...settings}
+          className="py-4 carousel-box flex items-center justify-center gap-4"
+        >
           <div className="relative  news">
             <img src={Img} alt="images" className="rounded-lg" />
             <div className="absolute news-partner z-10 bottom-0 p-2">
               <h3 class="partner__title  text-white font-bold">
-                Конференция FAMALL в Казахстане г. Астана 26 ноября 2022г.
+                Moskvadagi konferentsiya, 2023 yil 1-aprel
+              </h3>
+              <span class="partner__date text-white">
+                2023 - yil 10 dekabr{" "}
+              </span>
+            </div>
+          </div>
+          <div className="relative  news">
+            <img src={Img} alt="images" className="rounded-lg" />
+            <div className="absolute news-partner z-10 bottom-0 p-2">
+              <h3 class="partner__title  text-white font-bold">
+                Moskvadagi konferentsiya, 2023 yil 1-aprel
               </h3>
               <span class="partner__date text-white">10 декабря 2022</span>
             </div>
@@ -49,7 +63,7 @@ export default class SimpleSlider extends Component {
             <img src={Img} alt="images" className="rounded-lg" />
             <div className="absolute news-partner z-10 bottom-0 p-2">
               <h3 class="partner__title  text-white font-bold">
-                Конференция FAMALL в Казахстане г. Астана 26 ноября 2022г.
+                Moskvadagi konferentsiya, 2023 yil 1-aprel
               </h3>
               <span class="partner__date text-white">10 декабря 2022</span>
             </div>
@@ -58,16 +72,7 @@ export default class SimpleSlider extends Component {
             <img src={Img} alt="images" className="rounded-lg" />
             <div className="absolute news-partner z-10 bottom-0 p-2">
               <h3 class="partner__title  text-white font-bold">
-                Конференция FAMALL в Казахстане г. Астана 26 ноября 2022г.
-              </h3>
-              <span class="partner__date text-white">10 декабря 2022</span>
-            </div>
-          </div>
-          <div className="relative  news">
-            <img src={Img} alt="images" className="rounded-lg" />
-            <div className="absolute news-partner z-10 bottom-0 p-2">
-              <h3 class="partner__title  text-white font-bold">
-                Конференция FAMALL в Казахстане г. Астана 26 ноября 2022г.
+                Moskvadagi konferentsiya, 2023 yil 1-aprel
               </h3>
               <span class="partner__date text-white">10 декабря 2022</span>
             </div>
